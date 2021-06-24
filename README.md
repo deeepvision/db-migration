@@ -28,6 +28,7 @@ yarn generate-tunnels v.angolenko@prod02.connect.do.deepvision.team
 
 Далее, в *migrations.ts* описываем доступы к базе источнику и базе на атласе:
 
+```javascript
 export default [
   {
     name: 'Atomic DB',
