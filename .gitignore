@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+
+# IDE
+/.idea
+/.awcache
+/.vscode
+
+# misc
+npm-debug.log
+.DS_Store
+
+# tests
+/coverage
+/.nyc_output
+/dev
+
+# dist
+dist
+
+# docs
+docs
+
+# yarn
+yarn-error.log
+
+# id rsa
+id_rsa

@@ -1,0 +1,13 @@
+tests/
+src/
+node_modules
+yarn-error.log
+.eslintrc.js
+.eslintignore
+.editorconfig
+.gitignore
+jest.config.js
+tsconfig.json
+
+# Editors
+.idea

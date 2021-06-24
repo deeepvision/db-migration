@@ -1,0 +1,42 @@
+{
+  "name": "@deeepvision/db-migration",
+  "version": "0.1.0",
+  "description": "MongoDB To MongoDB Atlas Migration Script",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "generate-tunnels": "ts-node ./src/tunnels.ts",
+    "clean": "rimraf dist",
+    "fix": "eslint ./ --fix",
+    "test": "jest --config ./jest.config.js --runInBand",
+    "docs": "typedoc --tsconfig ./tsconfig.build.json --out docs ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deeepvision/db-migration"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "DeepVision",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "deep-equal": "^2.0.5",
+    "nanoid": "^3.1.23",
+    "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^27.0.4",
+    "prettier": "^2.1.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.2",
+    "typescript": "4.2.4"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts"
+}
